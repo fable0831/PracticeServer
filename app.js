@@ -8,13 +8,13 @@ const app = express();
 db.sequelize
   .sync()
   .then(() => {
-    console.log('db 연결 성공');
+    console.log('db 연결 성공!!!');
   })
   .catch(console.error);
 
 app.use('/sign', signRouter);
 app.use('/community', communityRouter);
 
-app.listen(3065, () => {
-  console.log('서버 실행 중!!');
+app.listen(3066, () => {
+  console.log('서버 실행 중!!!');
 });
