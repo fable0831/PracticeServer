@@ -1,28 +1,19 @@
 {
-  "name": "instanceserver",
+  "name": "practiceserver",
   "version": "1.0.0",
   "description": "FE 통신을 위한 임시 서버",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "dev": ""
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fable0831/instanceServer.git"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app",
+    "dev": "nodemon app"
   },
   "author": "fable0831",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/fable0831/instanceServer/issues"
-  },
-  "homepage": "https://github.com/fable0831/instanceServer#readme",
   "dependencies": {
     "bcrypt": "^5.1.0",
     "dotenv": "^16.0.3",
-    "ejs": "^3.1.8",
     "express": "^4.18.2",
-    "mongodb": "^4.13.0",
-    "mongoose": "^6.9.0",
     "mysql2": "^3.0.1",
     "nodemon": "^2.0.20",
     "sequelize": "^6.28.0",
